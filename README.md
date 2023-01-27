@@ -1,4 +1,4 @@
-# 前端笔记
+# Python 笔记
 
 ![](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-python-notes/deploy-docs.yml?branch=main)
 
