@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/vuepress-python-notes/favicon.svg"><title>Python 笔记</title><meta name="description" content="Python 笔记">
+    <link rel="preload" href="/vuepress-python-notes/assets/style-fbe8f2aa.css" as="style"><link rel="stylesheet" href="/vuepress-python-notes/assets/style-fbe8f2aa.css">
+    <link rel="modulepreload" href="/vuepress-python-notes/assets/app-365bacca.js"><link rel="modulepreload" href="/vuepress-python-notes/assets/framework-d3922052.js"><link rel="modulepreload" href="/vuepress-python-notes/assets/404.html-0c700c04.js"><link rel="modulepreload" href="/vuepress-python-notes/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/vuepress-python-notes/assets/index.html-b7de984a.js" as="script"><link rel="prefetch" href="/vuepress-python-notes/assets/index.html-e283ab30.js" as="script"><link rel="prefetch" href="/vuepress-python-notes/assets/mermaid.esm.min-bc08675d.js" as="script"><link rel="prefetch" href="/vuepress-python-notes/assets/mermaid-mindmap.esm.min-9c19838b.js" as="script"><link rel="prefetch" href="/vuepress-python-notes/assets/SearchResult-926b60cd.js" as="script"><link rel="prefetch" href="/vuepress-python-notes/assets/Catalog-578a0773.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/vuepress-python-notes/" class="">Take me home</a></div></main></div><!----><!----><!--]--></div>
+    <script type="module" src="/vuepress-python-notes/assets/app-365bacca.js" defer></script>
+  </body>
+</html>
