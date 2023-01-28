@@ -1,0 +1,14 @@
+import{_ as p,M as o,p as i,q as c,R as a,N as e,V as t,t as n,a1 as d}from"./framework-d3922052.js";const l={},u=a("h1",{id:"_1-pyside6-简介",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#_1-pyside6-简介","aria-hidden":"true"},"#"),n(" 1. PySide6 简介")],-1),r={class:"table-of-contents"},h=d(`<h2 id="_1-1-pyside6-是什么" tabindex="-1"><a class="header-anchor" href="#_1-1-pyside6-是什么" aria-hidden="true">#</a> 1.1 PySide6 是什么</h2><h2 id="_1-2-pyside6-安装" tabindex="-1"><a class="header-anchor" href="#_1-2-pyside6-安装" aria-hidden="true">#</a> 1.2 PySide6 安装</h2><p>安装：</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code>pip <span class="token function">install</span> pyside6
+</code></pre></div><p>如果以前已经安装过，需要完全卸载再重新安装：</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code>pip uninstall pyside6 pyside6-addons pyside6-essentials shiboken6
+pip cache purge
+pip <span class="token function">install</span> pyside6
+</code></pre></div><h2 id="_1-3-hello-pyside6" tabindex="-1"><a class="header-anchor" href="#_1-3-hello-pyside6" aria-hidden="true">#</a> 1.3 Hello PySide6</h2><p>将下面的代码保存为 <code>main.py</code>：</p><div class="language-python" data-ext="py"><pre class="language-python"><code><span class="token keyword">import</span> sys
+
+<span class="token keyword">from</span> PySide6<span class="token punctuation">.</span>QtWidgets <span class="token keyword">import</span> QApplication<span class="token punctuation">,</span> QWidget
+
+app <span class="token operator">=</span> QApplication<span class="token punctuation">(</span>sys<span class="token punctuation">.</span>argv<span class="token punctuation">)</span>
+window <span class="token operator">=</span> QWidget<span class="token punctuation">(</span><span class="token punctuation">)</span>
+window<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span>
+sys<span class="token punctuation">.</span>exit<span class="token punctuation">(</span>app<span class="token punctuation">.</span><span class="token keyword">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>然后运行它，需要确保你使用的是 Python3 的正确版本：</p><div class="language-bash" data-ext="sh"><pre class="language-bash"><code>python main.py
+</code></pre></div><p>如果你看到窗口说明安装成功。</p>`,12);function y(_,k){const s=o("router-link");return i(),c("div",null,[u,a("nav",r,[a("ul",null,[a("li",null,[e(s,{to:"#_1-1-pyside6-是什么"},{default:t(()=>[n("1.1 PySide6 是什么")]),_:1})]),a("li",null,[e(s,{to:"#_1-2-pyside6-安装"},{default:t(()=>[n("1.2 PySide6 安装")]),_:1})]),a("li",null,[e(s,{to:"#_1-3-hello-pyside6"},{default:t(()=>[n("1.3 Hello PySide6")]),_:1})])])]),h])}const f=p(l,[["render",y],["__file","index.html.vue"]]);export{f as default};
