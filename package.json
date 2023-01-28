@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-python-docs",
+  "name": "vuepress-python-notes",
   "version": "1.0.0",
-  "description": "Vuepress Python Docs",
+  "description": "Vuepress Python Notes",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",

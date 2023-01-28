@@ -39,10 +39,10 @@ packages:
       '@babel/highlight': registry.npmmirror.com/@babel/highlight/7.18.6
     dev: true
 
-  registry.npmmirror.com/@babel/compat-data/7.20.10:
-    resolution: {integrity: sha512-sEnuDPpOJR/fcafHMjpcpGN5M2jbUGUHwmuWKM/YdPzeEDJg8bgmbcWQFUfE32MQjti1koACvoPVsDe8Uq+idg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.20.10.tgz}
+  registry.npmmirror.com/@babel/compat-data/7.20.14:
+    resolution: {integrity: sha512-0YpKHD6ImkWMEINCyDAD0HLLUH/lPCefG8ld9it8DJB2wnApraKuhgYTvTY1z7UFIfBTGy5LwncZ+5HWWGbhFw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/compat-data/-/compat-data-7.20.14.tgz}
     name: '@babel/compat-data'
-    version: 7.20.10
+    version: 7.20.14
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -54,7 +54,7 @@ packages:
     dependencies:
       '@ampproject/remapping': registry.npmmirror.com/@ampproject/remapping/2.2.0
       '@babel/code-frame': registry.npmmirror.com/@babel/code-frame/7.18.6
-      '@babel/generator': registry.npmmirror.com/@babel/generator/7.20.7
+      '@babel/generator': registry.npmmirror.com/@babel/generator/7.20.14
       '@babel/helper-compilation-targets': registry.npmmirror.com/@babel/helper-compilation-targets/7.20.7_@babel+core@7.20.12
       '@babel/helper-module-transforms': registry.npmmirror.com/@babel/helper-module-transforms/7.20.11
       '@babel/helpers': registry.npmmirror.com/@babel/helpers/7.20.13
@@ -71,10 +71,10 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@babel/generator/7.20.7:
-    resolution: {integrity: sha512-7wqMOJq8doJMZmP4ApXTzLxSr7+oO2jroJURrVEp6XShrQUObV8Tq/D0NCcoYg2uHqUrjzO0zwBjoYzelxK+sw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/generator/-/generator-7.20.7.tgz}
+  registry.npmmirror.com/@babel/generator/7.20.14:
+    resolution: {integrity: sha512-AEmuXHdcD3A52HHXxaTmYlb8q/xMEhoRP67B3T4Oq7lbmSoqroMZzjnGj3+i1io3pdnF8iBYVu4Ilj+c4hBxYg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@babel/generator/-/generator-7.20.14.tgz}
     name: '@babel/generator'
-    version: 7.20.7
+    version: 7.20.14
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': registry.npmmirror.com/@babel/types/7.20.7
@@ -91,7 +91,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
-      '@babel/compat-data': registry.npmmirror.com/@babel/compat-data/7.20.10
+      '@babel/compat-data': registry.npmmirror.com/@babel/compat-data/7.20.14
       '@babel/core': registry.npmmirror.com/@babel/core/7.20.12
       '@babel/helper-validator-option': registry.npmmirror.com/@babel/helper-validator-option/7.18.6
       browserslist: registry.npmmirror.com/browserslist/4.21.4
@@ -243,7 +243,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': registry.npmmirror.com/@babel/code-frame/7.18.6
-      '@babel/generator': registry.npmmirror.com/@babel/generator/7.20.7
+      '@babel/generator': registry.npmmirror.com/@babel/generator/7.20.14
       '@babel/helper-environment-visitor': registry.npmmirror.com/@babel/helper-environment-visitor/7.18.9
       '@babel/helper-function-name': registry.npmmirror.com/@babel/helper-function-name/7.19.0
       '@babel/helper-hoist-variables': registry.npmmirror.com/@babel/helper-hoist-variables/7.18.6
@@ -887,10 +887,10 @@ packages:
       fastq: registry.npmmirror.com/fastq/1.15.0
     dev: true
 
-  registry.npmmirror.com/@stackblitz/sdk/1.8.1:
-    resolution: {integrity: sha512-hjYfjOLQBNDzqPD5AkGJOD7j+uvFwGocDTmwNqmLCWR5EY7BDtcOtDY2M+91v/twYWWNvI7N8UNIgojCPNgzMA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@stackblitz/sdk/-/sdk-1.8.1.tgz}
+  registry.npmmirror.com/@stackblitz/sdk/1.8.2:
+    resolution: {integrity: sha512-3aTg0Tb9dNs1huPkpdYxPEX/yc8A28eZneUMOEJzOLi7EJwl5onr9gCAVjIOkN4WLYu1iBSiJiGBYT629bZIJQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@stackblitz/sdk/-/sdk-1.8.2.tgz}
     name: '@stackblitz/sdk'
-    version: 1.8.1
+    version: 1.8.2
     dev: true
 
   registry.npmmirror.com/@types/debug/4.1.7:
@@ -1123,7 +1123,7 @@ packages:
       connect-history-api-fallback: registry.npmmirror.com/connect-history-api-fallback/2.0.0
       postcss: registry.npmmirror.com/postcss/8.4.21
       postcss-load-config: registry.npmmirror.com/postcss-load-config/4.0.1_postcss@8.4.21
-      rollup: registry.npmmirror.com/rollup/3.11.0
+      rollup: registry.npmmirror.com/rollup/3.12.0
       vite: registry.npmmirror.com/vite/4.0.4
       vue: registry.npmmirror.com/vue/3.2.45
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.45
@@ -3368,10 +3368,10 @@ packages:
     version: 3.0.1
     dev: true
 
-  registry.npmmirror.com/rollup/3.11.0:
-    resolution: {integrity: sha512-+uWPPkpWQ2H3Qi7sNBcRfhhHJyUNgBYhG4wKe5wuGRj2m55kpo+0p5jubKNBjQODyPe6tSBE3tNpdDwEisQvAQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.11.0.tgz}
+  registry.npmmirror.com/rollup/3.12.0:
+    resolution: {integrity: sha512-4MZ8kA2HNYahIjz63rzrMMRvDqQDeS9LoriJvMuV0V6zIGysP36e9t4yObUfwdT9h/szXoHQideICftcdZklWg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.12.0.tgz}
     name: rollup
-    version: 3.11.0
+    version: 3.12.0
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3688,7 +3688,7 @@ packages:
       esbuild: registry.npmmirror.com/esbuild/0.16.17
       postcss: registry.npmmirror.com/postcss/8.4.21
       resolve: registry.npmmirror.com/resolve/1.22.1
-      rollup: registry.npmmirror.com/rollup/3.11.0
+      rollup: registry.npmmirror.com/rollup/3.12.0
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
@@ -3809,7 +3809,7 @@ packages:
       vuepress-webpack:
         optional: true
     dependencies:
-      '@stackblitz/sdk': registry.npmmirror.com/@stackblitz/sdk/1.8.1
+      '@stackblitz/sdk': registry.npmmirror.com/@stackblitz/sdk/1.8.2
       '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.60
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.60
