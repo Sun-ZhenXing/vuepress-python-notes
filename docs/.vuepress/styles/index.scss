@@ -11,9 +11,23 @@
   }
 }
 
-// optimize: code
-code {
-  padding: 0.25rem 0.15rem;
+.theme-default-content {
+
+  // optimize: code
+  code {
+    padding: 0.25rem 0.15rem;
+  }
+
+  // optimize: image center
+  p>img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  // optimize: badge
+  .badge {
+    vertical-align: inherit;
+  }
 }
 
 // fix: copy katex code when selected
