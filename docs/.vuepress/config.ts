@@ -29,7 +29,18 @@ export default defineUserConfig({
     lastUpdatedText: '上次更新',
     navbar: [
     ],
-    sidebar: 'auto',
+    sidebar: {
+      '/pypi-package/pyside6': [
+        '/pypi-package/pyside6/chapter01/',
+        '/pypi-package/pyside6/chapter02/',
+        '/pypi-package/pyside6/chapter03/',
+        '/pypi-package/pyside6/chapter04/',
+        '/pypi-package/pyside6/chapter05/',
+        '/pypi-package/pyside6/chapter06/',
+        '/pypi-package/pyside6/chapter07/',
+        '/pypi-package/pyside6/chapter08/',
+      ]
+    },
   }),
   plugins: [
     mdEnhancePlugin({

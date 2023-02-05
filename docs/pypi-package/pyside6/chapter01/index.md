@@ -43,7 +43,7 @@ A：正如上面所示，PyQt 不是一个商业友好的软件，PyQt 使用 GP
 
 前面的条件指出，PySide6 要求 Python 版本不能低于 3.6，如果你正在使用更低的版本或 Python 2.7 及以下来构建应用，那么本教程将不适合你。
 
-本系列使用 Python 3.9 来演示，事实上，在主流系统中 PySide6 已经支持 Python 3.10 甚至 3.11，这意味你可以使用更新的特性。所以这里建议使用 Python 3.9 以上的版本。
+本系列使用 Python 3.10 来演示，事实上，在主流系统中 PySide6 已经支持 Python 3.10 甚至 3.11，这意味你可以使用更新的特性。所以这里建议使用 Python 3.9 以上的版本。
 
 :::
 
@@ -61,20 +61,19 @@ pip cache purge
 pip install pyside6
 ```
 
+查看已安装的版本：
+
+```bash
+import PySide6.QtCore
+print(PySide6.__version__)
+print(PySide6.QtCore.__version__)
+```
+
 ## 1.3 Hello PySide6
 
-使用你喜欢的 IDE 或者直接创建一个文件夹作为工作区。将下面的代码保存为 `main.py`：
+使用你喜欢的 IDE 或者直接创建一个文件夹作为工作区。将下面的代码保存为 [`main.py`](./src/main.py)：
 
-```python
-import sys
-
-from PySide6.QtWidgets import QApplication, QWidget
-
-app = QApplication(sys.argv)
-window = QWidget()
-window.show()
-sys.exit(app.exec())
-```
+@[code python](./src/main.py)
 
 然后运行它，需要确保你使用的是 Python3 的正确版本：
 
