@@ -21,7 +21,7 @@ description: 使用 ctypes 访问 C 代码
 
 要使用 `ctypes`，你首先要确保你要访问的 C 代码已经被编译到和 Python 解释器兼容（同样的架构、字大小、编译器等）的某个共享库中了。
 
-下面我们使用 [`sample.c`](./src/sample.c) 这段 C 代码来演示。
+下面我们使用 [`sample.c`](https://github.com/Sun-ZhenXing/vuepress-python-notes/tree/main/docs/mixed-programming/c-cpp-mixed/src/sample.c) 这段 C 代码来演示。
 
 @[code c](./src/sample.c)
 

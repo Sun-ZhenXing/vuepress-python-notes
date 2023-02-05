@@ -71,7 +71,7 @@ print(PySide6.QtCore.__version__)
 
 ## 1.3 Hello PySide6
 
-使用你喜欢的 IDE 或者直接创建一个文件夹作为工作区。将下面的代码保存为 [`main.py`](./src/main.py)：
+使用你喜欢的 IDE 或者直接创建一个文件夹作为工作区。将下面的代码保存为 [main.py](https://github.com/Sun-ZhenXing/vuepress-python-notes/tree/main/docs/pypi-package/pyside6/chapter01/src/main.py)：
 
 @[code python](./src/main.py)
 
