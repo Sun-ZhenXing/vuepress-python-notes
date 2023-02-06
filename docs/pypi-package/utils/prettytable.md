@@ -5,9 +5,24 @@ description: prettytable 打印、转换表格
 
 # prettytable 打印、转换表格
 
+[![Jazzband](https://jazzband.co/static/img/badge.svg)](https://jazzband.co/)
+[![PyPI version](https://img.shields.io/pypi/v/prettytable.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/prettytable/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/prettytable.svg?logo=python&logoColor=FFE873)](https://pypi.org/project/prettytable/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/prettytable.svg)](https://pypistats.org/packages/prettytable)
+[![GitHub Actions status](https://github.com/jazzband/prettytable/workflows/Test/badge.svg)](https://github.com/jazzband/prettytable/actions)
+[![codecov](https://codecov.io/gh/jazzband/prettytable/branch/main/graph/badge.svg)](https://codecov.io/gh/jazzband/prettytable)
+[![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 [[TOC]]
 
-## 1. 功能简介
+## 1. 项目简介
+
+| 项目        | 信息                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------ |
+| 项目地址    | [PyPI](https://pypi.org/project/prettytable/)、[GitHub](https://github.com/jazzband/prettytable) |
+| 开源协议    | BSD 3 + 自定义协议                                                                               |
+| Python 版本 | Python 3.7 ~ 3.11                                                                                |
+| 标签        | 工具                                                                                             |
 
 第三方库 [`prettytable`](https://pypi.org/project/prettytable/) 支持在终端打印、转换表格。其开源仓库为 [GitHub](https://github.com/jazzband/prettytable)。
 
