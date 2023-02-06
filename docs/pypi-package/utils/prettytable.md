@@ -5,6 +5,8 @@ description: prettytable 打印、转换表格
 
 # prettytable 打印、转换表格
 
+<div class="no-link">
+
 [![Jazzband](https://jazzband.co/static/img/badge.svg)](https://jazzband.co/)
 [![PyPI version](https://img.shields.io/pypi/v/prettytable.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/prettytable/)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/prettytable.svg?logo=python&logoColor=FFE873)](https://pypi.org/project/prettytable/)
@@ -12,6 +14,8 @@ description: prettytable 打印、转换表格
 [![GitHub Actions status](https://github.com/jazzband/prettytable/workflows/Test/badge.svg)](https://github.com/jazzband/prettytable/actions)
 [![codecov](https://codecov.io/gh/jazzband/prettytable/branch/main/graph/badge.svg)](https://codecov.io/gh/jazzband/prettytable)
 [![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+</div>
 
 [[TOC]]
 
@@ -112,22 +116,22 @@ from prettytable import from_html
 
 html_string = '''<table>
 <tr>
-<th>code</th>
-<th>uuid</th>
-<th>name</th>
-<th>IP</th>
+    <th>code</th>
+    <th>uuid</th>
+    <th>name</th>
+    <th>IP</th>
 </tr>
 <tr>
-<td>1</td>
-<td>server01</td>
-<td>server-01</td>
-<td>192.168.100.1</td>
+    <td>1</td>
+    <td>server01</td>
+    <td>server-01</td>
+    <td>192.168.100.1</td>
 </tr>
 <tr>
-<td>2</td>
-<td>server02</td>
-<td>server-02</td>
-<td>192.168.100.2</td>
+    <td>2</td>
+    <td>server02</td>
+    <td>server-02</td>
+    <td>192.168.100.2</td>
 </tr>
 </table>'''
 

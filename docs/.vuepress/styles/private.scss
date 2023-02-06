@@ -1,0 +1,17 @@
+.theme-default-content {
+  .no-link {
+    img {
+      margin: 0 0.1rem;
+    }
+
+    @media print {
+      a {
+        text-decoration: none;
+
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+}

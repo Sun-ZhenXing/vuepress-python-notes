@@ -5,10 +5,14 @@ description: aiofiles 异步文件接口
 
 # aiofiles 异步文件接口
 
+<div class="no-link">
+
 [![](https://img.shields.io/pypi/v/aiofiles.svg)](https://pypi.python.org/pypi/aiofiles)
 [![](https://travis-ci.org/Tinche/aiofiles.svg?branch=master)](https://travis-ci.org/Tinche/aiofiles)
 [![](https://codecov.io/gh/Tinche/aiofiles/branch/master/graph/badge.svg)](https://codecov.io/gh/Tinche/aiofiles)
 [![](https://img.shields.io/pypi/pyversions/aiofiles.svg)](https://github.com/Tinche/aiofiles)
+
+</div>
 
 [[TOC]]
 
