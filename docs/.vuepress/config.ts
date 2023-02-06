@@ -67,8 +67,18 @@ export default defineUserConfig({
           replacer: ({ tag }) => {
             if (tag === 'em') return {
               tag: 'Badge',
-              attrs: { type: 'tip', vertical: 'middle' },
+              attrs: { type: 'tip' },
               content: '定义'
+            }
+          }
+        },
+        {
+          matcher: /@3.[0-9]+\+/,
+          replacer: ({ tag, content }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'tip', vertical: 'top' },
+              content: content.replace('@', '')
             }
           }
         }
