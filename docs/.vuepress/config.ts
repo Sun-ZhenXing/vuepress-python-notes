@@ -77,7 +77,7 @@ export default defineUserConfig({
           replacer: ({ tag, content }) => {
             if (tag === 'em') return {
               tag: 'Badge',
-              attrs: { type: 'tip', vertical: 'top' },
+              attrs: { type: 'tip' },
               content: content.replace('@', '')
             }
           }
