@@ -81,6 +81,16 @@ export default defineUserConfig({
               content: content.replace('@', '')
             }
           }
+        },
+        {
+          matcher: '@TODO',
+          replacer: ({ tag }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'danger' },
+              content: 'TODO'
+            }
+          }
         }
       ]
     }, false),
