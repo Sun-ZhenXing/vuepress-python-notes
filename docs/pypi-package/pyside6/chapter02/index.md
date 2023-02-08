@@ -41,3 +41,29 @@ description: 第 2 章：PySide6 快速入门
 | `pyside6-rcc`      | Qt 资源编译工具                        |
 | `pyside6-uic`      | 用于将 `.ui` 文件转换成 `.py` 文件     |
 | `pyside6-designer` | 打开 Qt Designer                       |
+
+## 2.3 深入了解 QApplication
+
+`PySide6.QtWidgets.QApplication` 类用于管理 GUI 应用程序的控制流和主要设置。
+
+`QApplication` 提供了一些基于 `QWidget` 的应用程序所需的功能；用于处理特定小部件的初始化、结束。对于任何使用 Qt 的 GUI 应用程序，无论是否存在窗口，都有一个 `QApplication` 对象。
+
+```python
+import sys
+from PySide6.QtWidgets import QApplication
+
+if __name__ == "__main__":
+    app = QApplication([])
+
+    sys.exit(app.exec())
+```
+
+| 方法名         | 描述                                     |
+| -------------- | ---------------------------------------- |
+| `exec()`       | 需要调用这个函数来启动事件处理           |
+| `aboutQt()`    | 显示一个关于 Qt 的消息框                 |
+| `beep()`       | 播放系统通知声音                         |
+| `allWidgets()` | 返回一个包含所有小部件的列表             |
+| `style()`      | 返回程序当前使用的 `Style` 对象          |
+| `setStyle()`   | 设置GUI的样式                            |
+| `widgetAt()`   | 获取屏幕 `(x, y)` 位置处的 Qt 小部件对象 |
