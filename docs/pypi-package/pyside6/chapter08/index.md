@@ -44,6 +44,22 @@ UPX 可以压缩可执行文件的大小。UPX 在主流系统都可以使用，
 
 可以通过指定 `--upx-dir ...` 来指定 UPX 路径，默认在路径上查找。
 
+### 8.1.3 使用 Auto PY to EXE
+
+如果我们想可视化地进行打包任务呢？Auto PY to EXE 是一个 GUI 程序，帮助我们可视化地选择 PyInstaller 参数，非常适合新手使用。安装：
+
+```bash
+pip install auto-py-to-exe
+```
+
+使用：
+
+```bash
+auto-py-to-exe
+```
+
+此外 Auto PY to EXE 还支持在浏览器中操作，可以远程使用，阅读 [中文文档](https://github.com/brentvollebregt/auto-py-to-exe/blob/master/README-Chinese.md) 以获取更多信息。
+
 ## 8.2 使用 Nuitka 打包
 
 ### 8.2.1 Nuitka 简介
@@ -52,7 +68,7 @@ Nuitka 是一个 Python 编写的 Python 解释器，支持 CPython 代码，可
 
 [^2]: Nuitka，GitHub，<https://github.com/Nuitka/Nuitka>
 
-Nuitka 尽可能对代码翻译为 C 代码进行优化，同时不损失代码的兼容性。因此 Nuitka 打包保密性更好，难以被破解。虽然 PyInstaller 支持使用 `--key` 选项进行加密，但是我们很容易逆向得到密码从而解密出数据。
+Nuitka 尽可能对代码翻译为 C 代码进行优化，同时不损失代码的兼容性。因此 Nuitka 打包更小、更快，同时保密性更好，难以被破解。虽然 PyInstaller 支持使用 `--key` 选项进行加密，但是我们很容易逆向得到密码从而解密出数据。
 
 Nuitka 是双协议发布的，开源部分受到社区和官方支持。而更好的服务则是 Nuitka 开发商的付费项目，包括敏感字符串加密、更多编译器支持等。对于本文而言，开源部分已经足够。
 
@@ -250,7 +266,7 @@ Nuitka:INFO: Successfully created 'hello.dist\hello.exe'.
 
 ### 8.3.2 嵌入包的用法
 
-解压嵌入包至任意文件夹。
+解压嵌入包至任意文件夹，例如 [Python 3.10.9](https://www.python.org/ftp/python/3.10.9/python-3.10.9-embed-amd64.zip) 的嵌入包。
 
 如 `python310.zip` 包含了 Python 各种标准库，而除了可执行程序、安全目录和法律文件外，其他文件都是内置可直接导入的标准库。
 
