@@ -1123,7 +1123,7 @@ packages:
       connect-history-api-fallback: registry.npmmirror.com/connect-history-api-fallback/2.0.0
       postcss: registry.npmmirror.com/postcss/8.4.21
       postcss-load-config: registry.npmmirror.com/postcss-load-config/4.0.1_postcss@8.4.21
-      rollup: registry.npmmirror.com/rollup/3.14.0
+      rollup: registry.npmmirror.com/rollup/3.15.0
       vite: registry.npmmirror.com/vite/4.0.4
       vue: registry.npmmirror.com/vue/3.2.47
       vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
@@ -1588,7 +1588,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: registry.npmmirror.com/caniuse-lite/1.0.30001451
-      electron-to-chromium: registry.npmmirror.com/electron-to-chromium/1.4.293
+      electron-to-chromium: registry.npmmirror.com/electron-to-chromium/1.4.295
       node-releases: registry.npmmirror.com/node-releases/2.0.10
       update-browserslist-db: registry.npmmirror.com/update-browserslist-db/1.0.10_browserslist@4.21.5
     dev: true
@@ -1633,10 +1633,10 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  registry.npmmirror.com/chart.js/4.2.0:
-    resolution: {integrity: sha512-wbtcV+QKeH0F7gQZaCJEIpsNriFheacouJQTVIjITi3eQA8bTlIBoknz0+dgV79aeKLNMAX+nDslIVE/nJ3rzA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chart.js/-/chart.js-4.2.0.tgz}
+  registry.npmmirror.com/chart.js/4.2.1:
+    resolution: {integrity: sha512-6YbpQ0nt3NovAgOzbkSSeeAQu/3za1319dPUQTXn9WcOpywM8rGKxJHrhS8V8xEkAlk8YhEfjbuAPfUyp6jIsw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/chart.js/-/chart.js-4.2.1.tgz}
     name: chart.js
-    version: 4.2.0
+    version: 4.2.1
     engines: {pnpm: ^7.0.0}
     dependencies:
       '@kurkle/color': registry.npmmirror.com/@kurkle/color/0.3.2
@@ -2294,10 +2294,10 @@ packages:
       zrender: registry.npmmirror.com/zrender/5.4.1
     dev: true
 
-  registry.npmmirror.com/electron-to-chromium/1.4.293:
-    resolution: {integrity: sha512-h7vBlhC83NsgC9UO3LOZx91xgstIrHk5iqMbZgnEArL5rHTM6HfsUZhnwb3oRnNetXM1741kB9SO7x9jLshz5A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.293.tgz}
+  registry.npmmirror.com/electron-to-chromium/1.4.295:
+    resolution: {integrity: sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.295.tgz}
     name: electron-to-chromium
-    version: 1.4.293
+    version: 1.4.295
     dev: true
 
   registry.npmmirror.com/entities/3.0.1:
@@ -3368,10 +3368,10 @@ packages:
     version: 3.0.1
     dev: true
 
-  registry.npmmirror.com/rollup/3.14.0:
-    resolution: {integrity: sha512-o23sdgCLcLSe3zIplT9nQ1+r97okuaiR+vmAPZPTDYB7/f3tgWIYNyiQveMsZwshBT0is4eGax/HH83Q7CG+/Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.14.0.tgz}
+  registry.npmmirror.com/rollup/3.15.0:
+    resolution: {integrity: sha512-F9hrCAhnp5/zx/7HYmftvsNBkMfLfk/dXUh73hPSM2E3CRgap65orDNJbLetoiUFwSAk6iHPLvBrZ5iHYvzqsg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.15.0.tgz}
     name: rollup
-    version: 3.14.0
+    version: 3.15.0
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3688,7 +3688,7 @@ packages:
       esbuild: registry.npmmirror.com/esbuild/0.16.17
       postcss: registry.npmmirror.com/postcss/8.4.21
       resolve: registry.npmmirror.com/resolve/1.22.1
-      rollup: registry.npmmirror.com/rollup/3.14.0
+      rollup: registry.npmmirror.com/rollup/3.15.0
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
@@ -3931,7 +3931,7 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.60
       '@vueuse/core': registry.npmmirror.com/@vueuse/core/9.12.0_vue@3.2.47
       balloon-css: registry.npmmirror.com/balloon-css/1.2.0
-      chart.js: registry.npmmirror.com/chart.js/4.2.0
+      chart.js: registry.npmmirror.com/chart.js/4.2.1
       echarts: registry.npmmirror.com/echarts/5.4.1
       flowchart.ts: registry.npmmirror.com/flowchart.ts/0.1.2
       katex: registry.npmmirror.com/katex/0.16.4
