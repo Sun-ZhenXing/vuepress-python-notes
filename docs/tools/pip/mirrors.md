@@ -65,6 +65,12 @@ pip config set global.index-url %mirror_url%
 
 对于中国大陆的镜像站，可从 [中国教育和科研计算机网](https://mirrors.cernet.edu.cn/list/pypi) 进行获取。
 
+中国大陆常见镜像网站：
+
+```bash
+pip3 config set global.extra-index-url "https://pypi.tuna.tsinghua.edu.cn/simple/ https://mirrors.aliyun.com/pypi/simple/ https://repo.huaweicloud.com/repository/pypi/simple/ https://mirrors.bfsu.edu.cn/pypi/web/simple/"
+```
+
 请先依据上面的命令升级 Pip，然后将各个 URL 用空格分开：
 
 ::: code-tabs#sys
