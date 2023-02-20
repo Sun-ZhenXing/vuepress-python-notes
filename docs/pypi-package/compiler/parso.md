@@ -1,13 +1,9 @@
 ---
-title: parso Python 全版本解析器
-description: parso Python 全版本解析器
+title: parso - Python 全版本解析器
+description: parso - Python 全版本解析器
 ---
 
-# parso Python 全版本解析器
-
-[[TOC]]
-
-## 1. parso 介绍
+# parso - Python 全版本解析器
 
 <div class="no-link">
 
@@ -17,11 +13,23 @@ description: parso Python 全版本解析器
 
 </div>
 
+[[TOC]]
+
+## 1. 项目简介
+
+| 项目        | 信息                                                                                      |
+| ----------- | ----------------------------------------------------------------------------------------- |
+| 项目地址    | [PyPI](https://pypi.org/project/parso/) \| [GitHub](https://github.com/davidhalter/parso) |
+| 官方文档    | [parso.readthedocs.org](https://parso.readthedocs.org/en/latest/)                         |
+| 开源协议    | MIT                                                                                       |
+| Python 版本 | Python 3.6 ~ 3.11                                                                         |
+| 标签        | compiler                                                                                  |
+
 Parso 是一个 Python 解析器，支持错误恢复和不同 Python 版本。Parso 还能够列出你的 Python 文件中的多个语法错误。
 
 Parso 由很少的 API 组成，用来解析 Python 的分析语法树并查找尽可能多的错误。
 
-> 智能语法工具 [`jedi`](https://github.com/davidhalter/jedi) 就是由 Parso 构建。
+> 智能语法工具 [`jedi`](https://github.com/davidhalter/jedi) 就是由 Parso 构建的。
 
 安装非常简单：
 

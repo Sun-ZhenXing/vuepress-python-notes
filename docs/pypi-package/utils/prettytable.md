@@ -1,9 +1,9 @@
 ---
-title: prettytable 打印、转换表格
-description: prettytable 打印、转换表格
+title: prettytable - 打印、转换表格
+description: prettytable - 打印、转换表格
 ---
 
-# prettytable 打印、转换表格
+# prettytable - 打印、转换表格
 
 <div class="no-link">
 
@@ -21,12 +21,13 @@ description: prettytable 打印、转换表格
 
 ## 1. 项目简介
 
-| 项目        | 信息                                                                                             |
-| ----------- | ------------------------------------------------------------------------------------------------ |
-| 项目地址    | [PyPI](https://pypi.org/project/prettytable/)、[GitHub](https://github.com/jazzband/prettytable) |
-| 开源协议    | BSD 3 + 自定义协议                                                                               |
-| Python 版本 | Python 3.7 ~ 3.11                                                                                |
-| 标签        | 工具                                                                                             |
+| 项目        | 信息                                                                                               |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| 项目地址    | [PyPI](https://pypi.org/project/prettytable/) \| [GitHub](https://github.com/jazzband/prettytable) |
+| 官方文档    | -                                                                                                  |
+| 开源协议    | BSD 3 + 自定义协议                                                                                 |
+| Python 版本 | Python 3.7 ~ 3.11                                                                                  |
+| 标签        | 工具                                                                                               |
 
 第三方库 [`prettytable`](https://pypi.org/project/prettytable/) 支持在终端打印、转换表格。其开源仓库为 [GitHub](https://github.com/jazzband/prettytable)。
 

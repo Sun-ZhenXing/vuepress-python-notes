@@ -15,7 +15,8 @@ description: Python 常用第三方库
 
 | 项目        | 信息              |
 | ----------- | ----------------- |
-| 项目地址    | PyPI、GitHub      |
+| 项目地址    | PyPI \| GitHub    |
+| 官方文档    |                   |
 | 开源协议    | MIT               |
 | Python 版本 | Python 3.6 ~ 3.11 |
 | 标签        | SQL               |

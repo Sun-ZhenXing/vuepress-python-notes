@@ -1,9 +1,9 @@
 ---
-title: aiofiles 异步文件接口
-description: aiofiles 异步文件接口
+title: aiofiles - 异步文件接口
+description: aiofiles - 异步文件接口
 ---
 
-# aiofiles 异步文件接口
+# aiofiles - 异步文件接口
 
 <div class="no-link">
 
@@ -18,12 +18,12 @@ description: aiofiles 异步文件接口
 
 ## 1. 项目简介
 
-| 项目        | 信息                                                                                        |
-| ----------- | ------------------------------------------------------------------------------------------- |
-| 项目地址    | [PyPI](https://pypi.python.org/pypi/aiofiles)、[GitHub](https://github.com/Tinche/aiofiles) |
-| 开源协议    | Apache 2                                                                                    |
-| Python 版本 | Python 3.6 ~ 3.10                                                                           |
-| 标签        | asyncio                                                                                     |
+| 项目        | 信息                                                                                          |
+| ----------- | --------------------------------------------------------------------------------------------- |
+| 项目地址    | [PyPI](https://pypi.python.org/pypi/aiofiles) \| [GitHub](https://github.com/Tinche/aiofiles) |
+| 开源协议    | Apache 2                                                                                      |
+| Python 版本 | Python 3.6 ~ 3.10                                                                             |
+| 标签        | asyncio                                                                                       |
 
 `aiofiles` 是一个 Apache 2 许可的库，用 Python 编写，用于在 `asyncio` 应用程序中处理本地磁盘文件。
 
