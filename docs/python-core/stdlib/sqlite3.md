@@ -1,9 +1,9 @@
 ---
-title: sqlite3 SQLite 数据库
-description: sqlite3 SQLite 数据库
+title: sqlite3 - SQLite 数据库
+description: sqlite3 - SQLite 数据库
 ---
 
-# sqlite3 SQLite 数据库
+# sqlite3 - SQLite 数据库
 
 ::: warning
 

@@ -1,9 +1,9 @@
 ---
-title: venv 创建虚拟环境
-description: venv 创建虚拟环境
+title: venv - 创建虚拟环境
+description: venv - 创建虚拟环境
 ---
 
-# venv 创建虚拟环境
+# venv - 创建虚拟环境
 
 [[TOC]]
 
