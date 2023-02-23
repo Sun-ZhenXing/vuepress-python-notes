@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-05c57ed8","path":"/pypi-package/pyside6/","title":"PySide6 教程","lang":"zh-CN","frontmatter":{"title":"PySide6 教程","description":"PySide6 教程"},"headers":[],"git":{"updatedTime":1675997785000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"pypi-package/pyside6/index.md"}');export{e as data};
