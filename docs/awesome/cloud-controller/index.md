@@ -1,11 +1,18 @@
 ---
-title: Python 课程设计：云控制器
-description: Python 课程设计：云控制器
+title: Python 课程设计：Django 开发云控制器
+description: Python 课程设计：Django 开发云控制器
+sidebar: auto
 ---
 
-# Python 课程设计：云控制器
+# Python 课程设计：Django 开发云控制器
 
-本文介绍 Python 课程设计 *云控制器* 的设计过程和具体实现。
+本文介绍 Python 课程设计 *Django 开发云控制器* 的设计过程和具体实现。
+
+::: info GitHub
+
+现在已经开源在 GitHub：[Sun-ZhenXing/python-net-controller](https://github.com/Sun-ZhenXing/python-net-controller)，不过这是实验性的项目，仅仅作文课程设计而不是生产可用的。
+
+:::
 
 [[TOC]]
 
