@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.61
+  '@vuepress/plugin-shiki': 2.0.0-beta.61
   '@vuepress/utils': 2.0.0-beta.61
   vue: ^3.2.47
   vuepress: 2.0.0-beta.61
@@ -12,6 +13,7 @@ specifiers:
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.61
+  '@vuepress/plugin-shiki': 2.0.0-beta.61
   '@vuepress/utils': 2.0.0-beta.61
   vue: 3.2.47
   vuepress: 2.0.0-beta.61_zcwlgd45apez724duilctoxt4u
@@ -1076,6 +1078,15 @@ packages:
       - supports-color
     dev: true
 
+  /@vuepress/plugin-shiki/2.0.0-beta.61:
+    resolution: {integrity: sha512-YIduNpAg1EVqjfibasAYlZZ7nfRN/FYrMcj3TvlP3bJBXzHpKdDqaVSltXagVEFix6BqumQ85rso3ZtWCM+guw==}
+    dependencies:
+      '@vuepress/core': 2.0.0-beta.61
+      shiki: 0.14.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@vuepress/plugin-theme-data/2.0.0-beta.61:
     resolution: {integrity: sha512-drPLGbaXqXnHsuFHn6FolbqdRIxJzla1+10b3cKnsslatRbSPjKWos4Eri3xzgzEIC5TotPwTeT25gDRMpW8Sw==}
     dependencies:
@@ -1178,6 +1189,10 @@ packages:
   /ansi-regex/6.0.1:
     resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
     engines: {node: '>=12'}
+    dev: true
+
+  /ansi-sequence-parser/1.1.0:
+    resolution: {integrity: sha512-lEm8mt52to2fT8GhciPCGeCXACSz2UwIN4X2e2LJSnZ5uAbn2/dsYdOmUXq0AtWS5cpAupysIneExOgH0Vd2TQ==}
     dev: true
 
   /ansi-styles/3.2.1:
@@ -2299,6 +2314,10 @@ packages:
     hasBin: true
     dev: true
 
+  /jsonc-parser/3.2.0:
+    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
+    dev: true
+
   /jsonfile/6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
@@ -2862,6 +2881,15 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /shiki/0.14.1:
+    resolution: {integrity: sha512-+Jz4nBkCBe0mEDqo1eKRcCdjRtrCjozmcbTUjbPTX7OOJfEbTZzlUWlZtGe3Gb5oV1/jnojhG//YZc3rs9zSEw==}
+    dependencies:
+      ansi-sequence-parser: 1.1.0
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.7.0
+      vscode-textmate: 8.0.0
+    dev: true
+
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
@@ -3060,6 +3088,14 @@ packages:
       rollup: 3.18.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vscode-oniguruma/1.7.0:
+    resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
+    dev: true
+
+  /vscode-textmate/8.0.0:
+    resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
     dev: true
 
   /vue-demi/0.13.11_vue@3.2.47:
