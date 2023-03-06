@@ -7,13 +7,12 @@ description: click - 增强的命令行参数处理
 
 [[TOC]]
 
-
 ## 1. 项目简介
 
 | 项目        | 信息                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------- |
 | 项目地址    | [PyPI](https://pypi.org/project/click/) \| [GitHub](https://github.com/pallets/click) |
-| 官方文档    | [palletsprojects.com](https://palletsprojects.com/p/click/)                           |
+| 官方文档    | [palletsprojects.com](https://click.palletsprojects.com/)                             |
 | 开源协议    | BSD 3                                                                                 |
 | Python 版本 | >= Python 3.7                                                                         |
 | 标签        | 工具                                                                                  |

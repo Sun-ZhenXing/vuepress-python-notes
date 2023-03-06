@@ -1,9 +1,11 @@
+import { getDirname, path } from '@vuepress/utils'
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 
+const __dirname = getDirname(import.meta.url)
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-python-notes/'
 
@@ -99,5 +101,11 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile: true
     })
-  ]
+  ],
+  alias: {
+    '@': path.resolve(
+      __dirname,
+      '.',
+    )
+  },
 })
