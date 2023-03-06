@@ -5,7 +5,7 @@ import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
-import { shikiPlugin } from '@vuepress/plugin-shiki'
+// import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -105,7 +105,7 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile: true
     }),
-    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
+    // isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
   ],
   alias: {
     '@': path.resolve(
