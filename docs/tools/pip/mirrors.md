@@ -1,9 +1,9 @@
 ---
-title: Pip 使用镜像
-description: Pip 使用镜像
+title: pip 使用镜像
+description: pip 使用镜像
 ---
 
-# Pip 使用镜像
+# pip 使用镜像
 
 [[TOC]]
 
@@ -71,7 +71,7 @@ pip config set global.index-url %mirror_url%
 pip3 config set global.extra-index-url "https://pypi.tuna.tsinghua.edu.cn/simple/ https://mirrors.aliyun.com/pypi/simple/ https://repo.huaweicloud.com/repository/pypi/simple/ https://mirrors.bfsu.edu.cn/pypi/web/simple/"
 ```
 
-请先依据上面的命令升级 Pip，然后将各个 URL 用空格分开：
+请先依据上面的命令升级 pip，然后将各个 URL 用空格分开：
 
 ::: code-tabs#sys
 

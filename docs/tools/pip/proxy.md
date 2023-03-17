@@ -1,9 +1,9 @@
 ---
-title: Pip 使用代理
-description: Pip 使用代理
+title: pip 使用代理
+description: pip 使用代理
 ---
 
-# Pip 使用代理
+# pip 使用代理
 
 [[TOC]]
 
