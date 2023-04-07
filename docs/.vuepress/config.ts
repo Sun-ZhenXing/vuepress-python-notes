@@ -101,7 +101,16 @@ export default defineUserConfig({
       ]
     }, false),
     searchProPlugin({}),
-    autoCatalogPlugin({}),
+    autoCatalogPlugin({
+      orderGetter: ({ title, routeMeta }) => {
+        if (routeMeta.order) return routeMeta.order as number
+        const prefix = title.match(/^\d+. /)
+        if (prefix) return parseInt(prefix[0])
+        const suffix = title.match(/\d+$/)
+        if (suffix) return parseInt(suffix[0])
+        return 0
+      }
+    }),
     copyCodePlugin({
       showInMobile: true
     }),
