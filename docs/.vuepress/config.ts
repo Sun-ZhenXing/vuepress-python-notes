@@ -5,7 +5,6 @@ import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
-// import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -33,20 +32,12 @@ export default defineUserConfig({
     editLinkText: '在 GitHub 上编辑此页',
     contributorsText: '贡献者',
     lastUpdatedText: '上次更新',
+    openInNewWindow: '在新窗口打开',
+    toggleColorMode: '切换深色模式',
+    toggleSidebar: '切换侧边栏',
     navbar: [
     ],
-    sidebar: {
-      '/pypi-package/pyside6': [
-        '/pypi-package/pyside6/chapter01/',
-        '/pypi-package/pyside6/chapter02/',
-        '/pypi-package/pyside6/chapter03/',
-        '/pypi-package/pyside6/chapter04/',
-        '/pypi-package/pyside6/chapter05/',
-        '/pypi-package/pyside6/chapter06/',
-        '/pypi-package/pyside6/chapter07/',
-        '/pypi-package/pyside6/chapter08/',
-      ]
-    },
+    sidebar: 'auto',
   }),
   plugins: [
     mdEnhancePlugin({
@@ -114,7 +105,6 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile: true
     }),
-    // isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
   ],
   alias: {
     '@': path.resolve(
