@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7ce29625","path":"/awesome/","title":"Python Awesome","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1681176759000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"awesome/index.md","excerpt":""}');export{e as data};

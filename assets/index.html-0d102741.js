@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-24556e36","path":"/tools/pip/","title":"Python pip 包管理器","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1681176759000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":3}]},"filePathRelative":"tools/pip/index.md","excerpt":""}');export{t as data};

@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-1a5f4549","path":"/python-core/lang/","title":"Python 语法特征","lang":"zh-CN","frontmatter":{"title":"Python 语法特征","description":"Python 语法特征"},"headers":[],"git":{"updatedTime":1675758028000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"python-core/lang/index.md","excerpt":""}');export{t as data};
