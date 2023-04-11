@@ -1,8 +1,3 @@
----
-title: 将 bytes 转换为任意 C 类型
-description: 将 bytes 转换为任意 C 类型
----
-
 # 将 bytes 转换为任意 C 类型
 
 下面的方法实现了 `bytes` 转换到任意 C 类型。

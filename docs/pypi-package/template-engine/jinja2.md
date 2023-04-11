@@ -1,8 +1,3 @@
----
-title: jinja2 - 强大的模板引擎
-description: jinja2 - 强大的模板引擎
----
-
 # jinja2 - 强大的模板引擎
 
 [[TOC]]

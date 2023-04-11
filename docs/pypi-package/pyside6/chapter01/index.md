@@ -1,8 +1,3 @@
----
-title: 第 1 章：PySide6 简介
-description: 第 1 章：PySide6 简介
----
-
 # 1. PySide6 简介
 
 [[TOC]]

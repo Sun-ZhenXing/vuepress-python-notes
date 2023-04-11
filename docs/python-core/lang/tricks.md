@@ -1,8 +1,3 @@
----
-title: Python 语言技巧
-description: Python 语言技巧
----
-
 # Python 语言技巧
 
 [[TOC]]

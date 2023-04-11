@@ -1,8 +1,3 @@
----
-title: 大小写不敏感的字典
-description: 大小写不敏感的字典
----
-
 # 从绝对路径上导入 Python 模块
 
 对于 Python 3.5+，使用 `importlib.util` 库的函数来导入模块：

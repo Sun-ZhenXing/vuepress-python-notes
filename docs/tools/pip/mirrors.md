@@ -1,8 +1,3 @@
----
-title: pip 使用镜像
-description: pip 使用镜像
----
-
 # pip 使用镜像
 
 [[TOC]]

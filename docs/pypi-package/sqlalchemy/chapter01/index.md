@@ -1,8 +1,3 @@
----
-title: 第 1 章：SQLAlchemy 入门
-description: 第 1 章：SQLAlchemy 入门
----
-
 # 1. SQLAlchemy 入门
 
 [[TOC]]

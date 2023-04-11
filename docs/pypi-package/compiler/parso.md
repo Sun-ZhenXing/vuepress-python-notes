@@ -1,8 +1,3 @@
----
-title: parso - Python 全版本解析器
-description: parso - Python 全版本解析器
----
-
 # parso - Python 全版本解析器
 
 <div class="no-link">

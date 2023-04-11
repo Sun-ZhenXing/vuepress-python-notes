@@ -1,8 +1,3 @@
----
-title: Python 运算符
-description: Python 运算符
----
-
 # Python 运算符
 
 ## 1.1 运算符优先级

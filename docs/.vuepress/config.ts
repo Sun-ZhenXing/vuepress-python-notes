@@ -7,8 +7,7 @@ import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 
 const __dirname = getDirname(import.meta.url)
-const isProd = process.env.NODE_ENV === 'production'
-
+// const isProd = process.env.NODE_ENV === 'production'
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-python-notes/'
 

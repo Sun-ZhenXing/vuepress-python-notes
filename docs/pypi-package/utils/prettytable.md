@@ -1,8 +1,3 @@
----
-title: prettytable - 打印、转换表格
-description: prettytable - 打印、转换表格
----
-
 # prettytable - 打印、转换表格
 
 <div class="no-link">

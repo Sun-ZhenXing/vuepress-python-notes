@@ -1,8 +1,3 @@
----
-title: pip 使用代理
-description: pip 使用代理
----
-
 # pip 使用代理
 
 [[TOC]]

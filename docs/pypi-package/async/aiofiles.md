@@ -1,8 +1,3 @@
----
-title: aiofiles - 异步文件接口
-description: aiofiles - 异步文件接口
----
-
 # aiofiles - 异步文件接口
 
 <div class="no-link">

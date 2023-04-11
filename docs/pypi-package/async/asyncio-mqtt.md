@@ -1,8 +1,3 @@
----
-title: asyncio-mqtt - 异步 MQTT 客户端
-description: asyncio-mqtt - 异步 MQTT 客户端
----
-
 # asyncio-mqtt - 异步 MQTT 客户端
 
 <div class="no-link">

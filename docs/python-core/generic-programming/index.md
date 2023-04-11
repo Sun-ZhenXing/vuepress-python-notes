@@ -1,8 +1,3 @@
----
-title: Python 泛型编程
-description: Python 泛型编程
----
-
 # Python 泛型编程
 
 Python 是多范式的编程语言，支持泛型编程。本文介绍使用 Python 泛型编程的一些细节和实现。

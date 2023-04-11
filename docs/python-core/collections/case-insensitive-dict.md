@@ -1,8 +1,3 @@
----
-title: 大小写不敏感的字典
-description: 大小写不敏感的字典
----
-
 # 大小写不敏感的字典
 
 `requests` 内有一个大小写不敏感的字典类型 `CaseInsensitiveDict`，例如 `response.headers` 即是这个类型：

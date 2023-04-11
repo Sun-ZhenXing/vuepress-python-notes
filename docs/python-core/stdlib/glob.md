@@ -1,8 +1,3 @@
----
-title: glob - Unix 风格路径名模式扩展
-description: glob - Unix 风格路径名模式扩展
----
-
 # glob - Unix 风格路径名模式扩展
 
 [[TOC]]

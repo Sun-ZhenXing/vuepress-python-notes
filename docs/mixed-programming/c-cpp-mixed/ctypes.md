@@ -1,8 +1,3 @@
----
-title: 使用 ctypes 访问 C 代码
-description: 使用 ctypes 访问 C 代码
----
-
 # 使用 ctypes 访问 C 代码
 
 [[TOC]]

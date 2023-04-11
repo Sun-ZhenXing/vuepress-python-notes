@@ -1,8 +1,3 @@
----
-title: operator - 标准运算符代替
-description: operator - 标准运算符代替
----
-
 # operator - 标准运算符代替
 
 [[TOC]]
