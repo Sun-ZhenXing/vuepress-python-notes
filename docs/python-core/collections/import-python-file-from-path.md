@@ -5,7 +5,6 @@
 ```python
 import importlib.util
 
-
 def load_file(path: str):
     spec = importlib.util.spec_from_file_location('module_name', path)
     modulevar = importlib.util.module_from_spec(spec)

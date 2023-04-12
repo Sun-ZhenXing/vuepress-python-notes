@@ -11,7 +11,7 @@ print(res.headers['Connection'])
 print(res.headers['connection'])
 ```
 
-这两个结果一致。下面我们通过魔术方法实现一个大小写不敏感的字典[^1]
+这两个结果一致。下面我们通过魔术方法实现一个大小写不敏感的字典，参考了网络上的其他方法[^1]
 
 ```python
 class CaseInsensitiveDict(dict):
@@ -38,4 +38,4 @@ class CaseInsensitiveDict(dict):
         return f"{type(self).__name__}({super().__repr__()})"
 ```
 
-[1]: <http://www.coolpython.net/informal_essay/20-03/ignore_case_dict.html>
+[1]: Python 创建一个大小写不敏感的字典，CoolPython，<http://www.coolpython.net/informal_essay/20-03/ignore_case_dict.html>

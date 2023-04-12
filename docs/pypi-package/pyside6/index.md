@@ -17,5 +17,6 @@
 | https://zhuanlan.zhihu.com/p/133303836                         | Nuitka 博客                |
 | https://github.com/flyfire/pyside6-examples                    | PySide6 示例代码（超多）   |
 | https://github.com/muziing/PySide6-Code-Tutorial               | PySide6 中文教程           |
+| https://www.pythonguis.com/                                    | PySide6 英文教程           |
 
  -->
