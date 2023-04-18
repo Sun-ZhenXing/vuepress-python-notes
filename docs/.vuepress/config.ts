@@ -53,6 +53,7 @@ export default defineUserConfig({
       footnote: true,
       mark: true,
       imgLazyload: true,
+      include: true,
       tasklist: true,
       katex: true,
       mermaid: true,
