@@ -20,7 +20,7 @@
 | Python 版本 | Python 3.6 ~ 3.10                                                                             |
 | 标签        | asyncio                                                                                       |
 
-`aiofiles` 是一个 Apache 2 许可的库，用 Python 编写，用于在 `asyncio` 应用程序中处理本地磁盘文件。
+`aiofiles` 是一个 Apache 2 许可的第三方库，用 Python 编写，用于在 `asyncio` 应用程序中处理本地磁盘文件。
 
 ```bash
 pip install aiofiles
