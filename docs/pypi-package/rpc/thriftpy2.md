@@ -1,4 +1,4 @@
-# thriftpy2 - Thrift RPC 框架的
+# thriftpy2 - Thrift RPC 框架的高性能 Python 实现
 
 <div class="no-link">
 
