@@ -38,7 +38,7 @@ suite: simple_stmt | NEWLINE INDENT stmt+ DEDENT
 title: AI 提示
 desc: 解释一下 Extended Backus Naur Form（EBNF）是什么？What is the Extended Backus Naur Form (EBNF)?
 link: https://chat.openai.com/
-logo: /chatgpt.svg
+logo: /vuepress-python-notes/chatgpt.svg
 color: rgba(226, 212, 255, 0.2)
 ```
 

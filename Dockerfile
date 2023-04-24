@@ -21,9 +21,9 @@ ENV TZ=Asia/Shanghai \
     LANGUAGE=C.UTF-8 \
     LC_ALL=C.UTF-8
 
-WORKDIR /usr/share/nginx/html/vuepress-frontend-notes/
+WORKDIR /usr/share/nginx/html/vuepress-python-notes/
 
-RUN echo "<script>window.location.href = '/vuepress-frontend-notes/'</script>" > /usr/share/nginx/html/index.html
+RUN echo "<script>window.location.href = '/vuepress-python-notes/'</script>" > /usr/share/nginx/html/index.html
 COPY --from=builder /app/docs/.vuepress/dist/ ./
 
 EXPOSE 80
