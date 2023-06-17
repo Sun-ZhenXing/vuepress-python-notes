@@ -10,8 +10,6 @@
 
 ## 2. 数组表示的任意进制
 
-
-
 ```python
 def convert_base(number: int, base: int = 10) -> list[int]:
     if number < 0 or base < 2:
@@ -35,5 +33,3 @@ def from_list(l: list[int], base: int = 10) -> int:
         res = res * base + x
     return res
 ```
-
-

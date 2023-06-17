@@ -27,6 +27,7 @@ sidebar: auto
 本项目在云控制器项目的背景下，创建一个有代表性的、简单的场景，管理和分配不同的网络端口。
 
 通过完成接口设计及接口实现达成以下目标：
+
 - Python 语言在企业级项目中的使用
 - Django 框架了解及使用
 - RESTful API 了解及设计
@@ -107,6 +108,7 @@ CREATE TABLE `Port`(
 ```
 
 模型关系约束：
+
 - 相同 `availability_zone_hints` 下 `name` 不能重复
 - 同一个 Network 下的 `Subnet.cidr` 不能重复
 - 同一个子网下的 `ip` 不能重复，一般情况下 IP 由系统分配，不会重复
@@ -143,15 +145,16 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/networks`
 
--   内容：获取网络信息
--   参数：  
+- 内容：获取网络信息
+- 参数：
     | 参数     | 含义                         |
     | -------- | ---------------------------- |
     | `offset` | 可选，指定返回记录的开始位置 |
     | `limit`  | 可选，限制请求数量           |
--   鉴权：无
--   请求示例：`GET /v1/networks?limit=10&offset=20`
--   返回示例  
+- 鉴权：无
+- 请求示例：`GET /v1/networks?limit=10&offset=20`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -181,11 +184,12 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/networks/:id`
 
--   内容：获取某个网络信息
--   参数：无
--   鉴权：无
--   请求示例：`GET /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：获取某个网络信息
+- 参数：无
+- 鉴权：无
+- 请求示例：`GET /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -203,21 +207,24 @@ CREATE TABLE `Port`(
 
 #### 接口：`POST /v1/networks`
 
--   内容：新建一个网络
--   参数：  
+- 内容：新建一个网络
+- 参数：
     | 参数                      | 含义       |
     | ------------------------- | ---------- |
     | `name`                    | 网络的名称 |
     | `availability_zone_hints` | 网络区域   |
--   鉴权：无
--   请求示例：`POST /v1/networks`  
+- 鉴权：无
+- 请求示例：`POST /v1/networks`
+
     ```json
     {
         "name": "network001",
         "availability_zone_hints": "az1"
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -241,11 +248,12 @@ CREATE TABLE `Port`(
 
 :::
 
--   内容：删除一个网络
--   参数：无
--   鉴权：无
--   请求示例：`DELETE /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：删除一个网络
+- 参数：无
+- 鉴权：无
+- 请求示例：`DELETE /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -257,15 +265,16 @@ CREATE TABLE `Port`(
 
 #### 接口：`PUT /v1/networks/:id`
 
--   内容：修改一个网络的信息
--   参数：  
+- 内容：修改一个网络的信息
+- 参数：
     | 参数                      | 含义       |
     | ------------------------- | ---------- |
     | `name`                    | 网络的名称 |
     | `availability_zone_hints` | 网络区域   |
     | `status`                  | 网络的状态 |
--   鉴权：无
--   请求示例：`PUT /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366"`  
+- 鉴权：无
+- 请求示例：`PUT /v1/networks/000006ac-ea63-4dd1-83e6-596e10a89366"`
+
     ```json
     {
         "name": "network001",
@@ -273,7 +282,9 @@ CREATE TABLE `Port`(
         "status": "ACTIVE"
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -291,16 +302,17 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/subnets`
 
--   内容：获取网络信息
--   参数：
+- 内容：获取网络信息
+- 参数：
     | 参数         | 含义                         |
     | ------------ | ---------------------------- |
     | `offset`     | 可选，指定返回记录的开始位置 |
     | `limit`      | 可选，限制请求数量           |
     | `network_id` | 可选，从某个网络中查找       |
--   鉴权：无
--   请求示例：`GET /v1/subnets?limit=15&offset=10`
--   返回示例  
+- 鉴权：无
+- 请求示例：`GET /v1/subnets?limit=15&offset=10`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -324,11 +336,12 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/subnets/:id`
 
--   内容：获取某个子网的信息，返回信息包括可用 IP 数和可用 IP 地址，以 `[start, end]` 的形式给出
--   参数：无
--   鉴权：无
--   请求示例：`GET /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：获取某个子网的信息，返回信息包括可用 IP 数和可用 IP 地址，以 `[start, end]` 的形式给出
+- 参数：无
+- 鉴权：无
+- 请求示例：`GET /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -361,15 +374,16 @@ CREATE TABLE `Port`(
 
 #### 接口：`POST /v1/subnets`
 
--   内容：新建一个子网
--   参数：  
+- 内容：新建一个子网
+- 参数：
     | 参数         | 含义       |
     | ------------ | ---------- |
     | `name`       | 子网的名称 |
     | `network_id` | 网络 ID  |
     | `cidr`       | CIDR       |
--   鉴权：无
--   请求示例：`POST /v1/subnets`  
+- 鉴权：无
+- 请求示例：`POST /v1/subnets`
+
     ```json
     {
         "name": "subnet001",
@@ -377,7 +391,9 @@ CREATE TABLE `Port`(
         "cidr": "192.168.1.0/24"
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -401,11 +417,12 @@ CREATE TABLE `Port`(
 
 :::
 
--   内容：删除一个子网
--   参数：无
--   鉴权：无
--   请求示例：`DELETE /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：删除一个子网
+- 参数：无
+- 鉴权：无
+- 请求示例：`DELETE /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -417,15 +434,16 @@ CREATE TABLE `Port`(
 
 #### 接口：`PUT /v1/subnets/:id`
 
--   内容：修改一个子网的信息，修改 `cird` 时会重新分配此子网下的所有端口
--   参数：  
+- 内容：修改一个子网的信息，修改 `cird` 时会重新分配此子网下的所有端口
+- 参数：
     | 参数         | 含义       |
     | ------------ | ---------- |
     | `name`       | 子网的名称 |
     | `network_id` | 网络的 ID  |
     | `cidr`       | CIDR       |
--   鉴权：无
--   请求示例：`PUT /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366"`  
+- 鉴权：无
+- 请求示例：`PUT /v1/subnets/000006ac-ea63-4dd1-83e6-596e10a89366"`
+
     ```json
     {
         "name": "subnet001",
@@ -433,7 +451,9 @@ CREATE TABLE `Port`(
         "cidr": "192.168.1.0/24"
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -451,16 +471,17 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/ports`
 
--   内容：获取端口信息
--   参数：
+- 内容：获取端口信息
+- 参数：
     | 参数         | 含义                         |
     | ------------ | ---------------------------- |
     | `offset`     | 可选，指定返回记录的开始位置 |
     | `limit`      | 可选，限制请求数量           |
     | `subnet_id` | 可选，从某个子网中查找       |
--   鉴权：无
--   请求示例：`GET /v1/ports?limit=15&offset=10`
--   返回示例  
+- 鉴权：无
+- 请求示例：`GET /v1/ports?limit=15&offset=10`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -478,11 +499,12 @@ CREATE TABLE `Port`(
 
 #### 接口：`GET /v1/ports/:id`
 
--   内容：获取某个端口的信息
--   参数：无
--   鉴权：无
--   请求示例：`GET /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：获取某个端口的信息
+- 参数：无
+- 鉴权：无
+- 请求示例：`GET /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -500,21 +522,24 @@ CREATE TABLE `Port`(
 
 #### 接口：`POST /v1/ports`
 
--   内容：新建一个端口，系统将自动分配 IP 地址
--   参数：  
+- 内容：新建一个端口，系统将自动分配 IP 地址
+- 参数：
     | 参数        | 含义       |
     | ----------- | ---------- |
     | `name`      | 端口的名称 |
     | `subnet_id` | 子网 ID    |
--   鉴权：无
--   请求示例：`POST /v1/ports`  
+- 鉴权：无
+- 请求示例：`POST /v1/ports`
+
     ```json
     {
         "name": "port001",
         "subnet_id": "00016ac-ea63-42d1-83e6-8394819effa8"
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -532,11 +557,12 @@ CREATE TABLE `Port`(
 
 #### 接口：`DELETE /v1/ports/:id`
 
--   内容：删除一个端口
--   参数：无
--   鉴权：无
--   请求示例：`DELETE /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366`
--   返回示例  
+- 内容：删除一个端口
+- 参数：无
+- 鉴权：无
+- 请求示例：`DELETE /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366`
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -548,21 +574,24 @@ CREATE TABLE `Port`(
 
 #### 接口：`PUT /v1/ports/:id`
 
--   内容：修改一个端口的信息，如果修改 `network_id` 那么系统将收回 IP 并重新分配
--   参数：  
+- 内容：修改一个端口的信息，如果修改 `network_id` 那么系统将收回 IP 并重新分配
+- 参数：
     | 参数        | 含义       |
     | ----------- | ---------- |
     | `name`      | 端口的名称 |
     | `subnet_id` | 子网 ID    |
--   鉴权：无
--   请求示例：`PUT /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366"`  
+- 鉴权：无
+- 请求示例：`PUT /v1/ports/000006ac-ea63-4dd1-83e6-596e10a89366"`
+
     ```json
     {
         "name": "port001",
         "network_id": "00016ac-ea63-42d1-83e6-8394819effa8",
     }
     ```
--   返回示例  
+
+- 返回示例
+
     ```json
     {
         "code": 0,
@@ -598,6 +627,7 @@ flowchart TB
 ```
 
 各个组件说明：
+
 - Url Patterns，将请求路由到具体处理的视图
 - View，处理 HTTP 请求并返回 `HTTPResponse` 对象
 - Serializer，序列化 / 反序列化模型数据
@@ -826,6 +856,7 @@ urlpatterns = [
 ::: tip 如何匹配含有 UUID 路径？
 
 `path()` 默认能接受下面几种参数：[^4]
+
 1. `str`：匹配除路径分隔符 `'/'` 之外的非空字符串
 2. `int`：匹配零或正整数
 3. `slug`：匹配由 ASCII 字母、数字、连字符、下划线字符组成的字符串，例如，`'building-your-1st-django-site'`
