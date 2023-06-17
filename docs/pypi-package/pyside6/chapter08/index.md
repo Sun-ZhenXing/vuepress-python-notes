@@ -77,7 +77,7 @@ Nuitka 对于 32 位程序和更老的系统（例如 Windows 7 以下）支持�
 pip3 install nuitka
 ```
 
-Nuitka 还有一些依赖包，在许多情况下都可能需要用到，这里一并安装：
+Nuitka 还有一些依赖包，在新版本的 PySide6 中将自动安装。如果您使用的是旧版本的 PySide6，可以手动安装依赖包：
 
 ```bash
 pip3 install ordered-set zstandard
@@ -211,7 +211,7 @@ nuitka --standalone --disable-console --msvc=14.3 --plugin-enable=pyside6 hello.
 
 输出如下：
 
-```log
+```bash
 (pyside-venv) D:\workspace\repo\pyside-book>nuitka --standalone --disable-console --msvc=14.3 --plugin-enable=pyside6 hello.py
 Nuitka-Options:INFO: Used command line options: --standalone --disable-console --msvc=14.3 --plugin-enable=pyside6 hello.py
 Nuitka:INFO: Starting Python compilation with Nuitka '1.4.3' on Python '3.10' commercial grade 'not installed'.

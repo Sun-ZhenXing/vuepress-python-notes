@@ -12,7 +12,7 @@
 
 例如部分语句的定义：
 
-```ebnf
+```bash
 compound_stmt: if_stmt | while_stmt | for_stmt | try_stmt | with_stmt | funcdef | classdef | decorated | async_stmt
 async_stmt: 'async' (funcdef | with_stmt | for_stmt)
 if_stmt: 'if' namedexpr_test ':' suite ('elif' namedexpr_test ':' suite)* ['else' ':' suite]
@@ -48,7 +48,7 @@ EBNF 的语法规则由一系列规则组成，每个规则包含一个非终止
 
 EBNF 还支持一些元素，如 `|` 表示或，可以用于在一个语法规则中定义多个可能的选择；`+` 表示至少重复一次；`*` 表示零次或多次重复。这些元素使 EBNF 更加灵活，可以描述更复杂的语法规则。
 
-```ebnf
+```bash
 expression ::= term {("+" | "-") term}.
 term ::= factor {("*" | "/") factor}.
 factor ::= number | "(" expression ")".
@@ -63,6 +63,6 @@ EBNF 被广泛用于编程语言的设计和描述，它可以帮助程序员更
 | `:`   | 表示定义                     |
 | `[ ]` | 中是可选项                   |
 | `' '` | 引号里的内容表示字符         |
-| `\| ` | 两边的是可选内容，或者的关系 |
+| `\|`  | 两边的是可选内容，或者的关系 |
 | `*`   | 表示零个或者多个             |
 | `+`   | 表示一个或者多个             |

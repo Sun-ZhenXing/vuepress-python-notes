@@ -37,6 +37,7 @@ Paramiko 是一个基于 SSH 用于连接远程服务器并执行相关操作（
 Paramiko 最常用的两个类为 `SSHClient` 类和 `SFTPClient` 类，分别提供 SSH 和 SFTP 功能。
 
 核心 SSH 协议类：
+
 - `Channel`：是一种 `Socket`、安全的 SSH 传输通道
 - `Client`：客户端的封装
 - `Message`：包含向流中写入字节，提取字节等方法
@@ -44,6 +45,7 @@ Paramiko 最常用的两个类为 `SSHClient` 类和 `SFTPClient` 类，分别�
 - `Transport`：是一种加密的会话，使用时会同步创建了一个加密的通道（即 `Tunnels`），这个通道叫做 `Channel`，此类包含公钥认证，打开 Channel 通道等方法
 
 秘钥相关类：
+
 - SSH Agent 类：`Agent`
 - Host Key 类：`HostKeys`
 - Key handling 类
@@ -55,6 +57,7 @@ Paramiko 最常用的两个类为 `SSHClient` 类和 `SFTPClient` 类，分别�
     - `Ed25519Key`
 
 GSS API 认证和秘钥交换：
+
 - `ssh_gss`
 - `kex_gss`
 
@@ -84,6 +87,7 @@ GSS API 认证和秘钥交换：
 | `policy`                        | 必须为下面所提供的策略 |
 
 有三种策略可用：
+
 1. `paramiko.AutoAddPolicy` 自动添加主机名及主机密钥到本地 `HostKeys` 对象，不依赖 `load_system_host_key()` 的配置。即新建立 SSH 连接时不需要再输入 `"yes"` 或 `"no"` 进行确认
 2. `paramiko.WarningPolicy` 用于记录一个未知的主机密钥的 Python 警告。并接受，功能上和 `AutoAddPolicy` 类似，但是会提示是新连接
 3. `paramiko.RejectPolicy` 自动拒绝未知的主机名和密钥，依赖 `load_system_host_key()` 的配置。此为默认选项
@@ -310,7 +314,7 @@ except Exception as e:
 
 其中 `host_site.txt` 文件内容格式如下：主机地址、端口、用户、密码：
 
-```csv
+```txt
 192.168.137.100,22,root,123456
 192.168.137.101,22,root,123456
 192.168.137.102,22,root,123456

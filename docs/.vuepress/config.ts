@@ -5,6 +5,7 @@ import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -73,6 +74,8 @@ export default defineUserConfig({
         resolvePath: file => {
           if (file.startsWith('@'))
             return file.replace('@', CURRENT_PATH)
+          if (file.startsWith('/'))
+            return file.replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
           return file
         },
       },
@@ -84,7 +87,9 @@ export default defineUserConfig({
       mark: true,
       imgLazyload: true,
       tasklist: true,
-      katex: true,
+      katex: {
+        copy: true,
+      },
       mermaid: true,
       delay: 200,
       stylize: [
@@ -134,6 +139,7 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile: true,
     }),
+    shikiPlugin({ theme: 'dark-plus' }),
   ],
   alias: {
     '@': CURRENT_PATH,

@@ -80,7 +80,7 @@ print(PySide6.QtCore.__version__)
 
 输出：
 
-```log
+```bash
 6.4.2
 6.4.2
 ```
