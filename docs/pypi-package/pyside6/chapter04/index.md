@@ -2,6 +2,10 @@
 
 [[TOC]]
 
+## 窗口置顶
+
+@[code python](./src/stay_top.py)
+
 ## QButtonGroup
 
 在 Qt Designer 中，选择多个 `RadioButton` 对象右键，选择分配给按钮组，新建按钮组即可创建一个 `QButtonGroup`。
@@ -60,3 +64,13 @@
 | `>AAAAA-AAAAA-AAAAA-AAAAA-AAAAA;#` | 许可证号码，大写，空白为 `#` |
 
 如果我需要设计一个输入 4 字节十六进制数字的输入框，可以使用 `>HH-HH-HH-HH;_` 来表示。
+
+## 创建文件浏览器
+
+可以参考 [`QFileSystemModel`](https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/QFileSystemModel.html) 来了解详细信息。
+
+@[code python](./src/file_explorer.py)
+
+## 简单浏览器
+
+@[code python](./src/simple_brower.py)
