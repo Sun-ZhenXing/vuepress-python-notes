@@ -34,3 +34,14 @@ def get_desktop_path() -> str:
     desktop_path = buf.value
     return desktop_path
 ```
+
+## 2. Mac 系统
+
+尚未验证。
+
+```python
+import os
+
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+print(desktop_path)
+```
