@@ -1,6 +1,6 @@
 import process from 'node:process'
 import { getDirname, path } from '@vuepress/utils'
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defaultTheme, defineUserConfig } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
@@ -19,12 +19,12 @@ export default defineUserConfig({
   title: 'Python 笔记',
   description: 'Python 笔记',
   head: [
-    ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }]
+    ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }],
   ],
   base: BASE_PATH,
   markdown: {
     code: {
-      lineNumbers: 10
+      lineNumbers: 10,
     },
     importCode: {
       handleImportPath: str => str
@@ -71,7 +71,7 @@ export default defineUserConfig({
       card: true,
       codetabs: true,
       include: {
-        resolvePath: file => {
+        resolvePath: (file) => {
           if (file.startsWith('@'))
             return file.replace('@', CURRENT_PATH)
           if (file.startsWith('/'))
@@ -96,45 +96,54 @@ export default defineUserConfig({
         {
           matcher: '@def',
           replacer: ({ tag }) => {
-            if (tag === 'em') return {
-              tag: 'Badge',
-              attrs: { type: 'tip' },
-              content: '定义'
+            if (tag === 'em') {
+              return {
+                tag: 'Badge',
+                attrs: { type: 'tip' },
+                content: '定义',
+              }
             }
-          }
+          },
         },
         {
           matcher: /@3.[0-9]+\+/,
           replacer: ({ tag, content }) => {
-            if (tag === 'em') return {
-              tag: 'Badge',
-              attrs: { type: 'tip' },
-              content: content.replace('@', '')
+            if (tag === 'em') {
+              return {
+                tag: 'Badge',
+                attrs: { type: 'tip' },
+                content: content.replace('@', ''),
+              }
             }
-          }
+          },
         },
         {
           matcher: '@TODO',
           replacer: ({ tag }) => {
-            if (tag === 'em') return {
-              tag: 'Badge',
-              attrs: { type: 'danger' },
-              content: 'TODO'
+            if (tag === 'em') {
+              return {
+                tag: 'Badge',
+                attrs: { type: 'danger' },
+                content: 'TODO',
+              }
             }
-          }
-        }
-      ]
+          },
+        },
+      ],
     }, false),
     searchProPlugin({}),
     autoCatalogPlugin({
       orderGetter: ({ title, routeMeta }) => {
-        if (routeMeta.order) return routeMeta.order as number
+        if (routeMeta.order)
+          return routeMeta.order as number
         const prefix = title.match(/^\d+. /)
-        if (prefix) return parseInt(prefix[0])
+        if (prefix)
+          return Number.parseInt(prefix[0])
         const suffix = title.match(/\d+$/)
-        if (suffix) return parseInt(suffix[0])
+        if (suffix)
+          return Number.parseInt(suffix[0])
         return 0
-      }
+      },
     }),
     copyCodePlugin({
       showInMobile: true,

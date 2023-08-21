@@ -20,8 +20,7 @@ int in_mandel(double x0, double y0, int n) {
         y = 2 * x * y + y0;
         x = xtemp;
         n -= 1;
-        if (x * x + y * y > 4)
-            return 0;
+        if (x * x + y * y > 4) return 0;
     }
     return 1;
 }
