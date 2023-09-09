@@ -20,15 +20,15 @@
   "author": "Alex",
   "license": "ISC",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.2",
-    "@vuepress/client": "2.0.0-beta.66",
-    "@vuepress/plugin-shiki": "2.0.0-beta.66",
-    "@vuepress/utils": "2.0.0-beta.66",
+    "@antfu/eslint-config": "^0.40.3",
+    "@vuepress/client": "2.0.0-beta.67",
+    "@vuepress/plugin-shiki": "2.0.0-beta.67",
+    "@vuepress/utils": "2.0.0-beta.67",
     "vue": "^3.3.4",
-    "vuepress": "2.0.0-beta.66",
-    "vuepress-plugin-auto-catalog": "2.0.0-beta.235",
-    "vuepress-plugin-copy-code2": "2.0.0-beta.235",
-    "vuepress-plugin-md-enhance": "2.0.0-beta.235",
-    "vuepress-plugin-search-pro": "2.0.0-beta.235"
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-plugin-auto-catalog": "2.0.0-beta.237",
+    "vuepress-plugin-copy-code2": "2.0.0-beta.237",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.237",
+    "vuepress-plugin-search-pro": "2.0.0-beta.237"
   }
 }
