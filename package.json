@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update-package": "pnpm dlx vp-update"
   },
   "keywords": [
     "vuepress",
@@ -20,7 +20,7 @@
   "author": "Alex",
   "license": "ISC",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.3",
+    "@antfu/eslint-config": "1.0.0-beta.18",
     "@vuepress/client": "2.0.0-beta.67",
     "@vuepress/plugin-shiki": "2.0.0-beta.67",
     "@vuepress/utils": "2.0.0-beta.67",

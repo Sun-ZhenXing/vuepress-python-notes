@@ -26,7 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: pnpm
 
       - name: Build Docs
@@ -42,4 +42,3 @@ jobs:
           # This is the branch where the docs are deployed to
           branch: gh-pages
           folder: docs/.vuepress/dist
-
