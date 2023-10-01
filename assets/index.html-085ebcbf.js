@@ -1,1 +1,0 @@
-import{_ as o,r as a,o as n,c,a as r,b as e,d as s}from"./app-d1290edd.js";const d={},_=e("h1",{id:"python-技巧合集",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python-技巧合集","aria-hidden":"true"},"#"),s(" Python 技巧合集")],-1);function l(h,i){const t=a("AutoCatalog");return n(),c("div",null,[_,r(t)])}const m=o(d,[["render",l],["__file","index.html.vue"]]);export{m as default};
