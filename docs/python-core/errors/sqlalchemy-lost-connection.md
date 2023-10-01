@@ -83,6 +83,7 @@ SQLAlchemy 会报错：
 ## 2. 解决方案
 
 我们先学习一下 SQLAlchemy 的连接池参数。
+
 - `pool_size`：设置连接池中，保持的连接数。初始化时并不产生连接。
 - `max_overflow`：当连接池里的连接数已达到 `pool_size` 时，且都被使用时。又要求从连接池里获取连接时，`max_overflow` 就是允许再新建的连接数。
 - `pool_timeout`：从连接池里获取连接，如果此时无空闲的连接。且连接数已经到达了 `pool_size+max_overflow`。此时获取连接的进程会等待 `pool_timeout` 秒。如果超过这个时间，还没有获得将会抛出异常，默认为 30 秒。
