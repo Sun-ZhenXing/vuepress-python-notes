@@ -1,0 +1,8 @@
+import{_ as s,o as a,c as n,e as l}from"./app-9f19ef42.js";const o={},e=l(`<h1 id="从绝对路径上导入-python-模块" tabindex="-1"><a class="header-anchor" href="#从绝对路径上导入-python-模块" aria-hidden="true">#</a> 从绝对路径上导入 Python 模块</h1><p>对于 Python 3.5+，使用 <code>importlib.util</code> 库的函数来导入模块：</p><div class="language-python" data-ext="py"><pre class="shiki dark-plus" style="background-color:#1E1E1E;" tabindex="0"><code><span class="line"><span style="color:#C586C0;">import</span><span style="color:#D4D4D4;"> importlib.util</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#569CD6;">def</span><span style="color:#D4D4D4;"> </span><span style="color:#DCDCAA;">load_file</span><span style="color:#D4D4D4;">(</span><span style="color:#9CDCFE;">path</span><span style="color:#D4D4D4;">: </span><span style="color:#4EC9B0;">str</span><span style="color:#D4D4D4;">):</span></span>
+<span class="line"><span style="color:#D4D4D4;">    spec = importlib.util.spec_from_file_location(</span><span style="color:#CE9178;">&#39;module_name&#39;</span><span style="color:#D4D4D4;">, path)</span></span>
+<span class="line"><span style="color:#D4D4D4;">    modulevar = importlib.util.module_from_spec(spec)</span></span>
+<span class="line"><span style="color:#D4D4D4;">    spec.loader.exec_module(modulevar)</span></span>
+<span class="line"><span style="color:#D4D4D4;">    </span><span style="color:#C586C0;">return</span><span style="color:#D4D4D4;"> modulevar</span></span>
+<span class="line"></span></code></pre></div>`,3),p=[e];function t(c,r){return a(),n("div",null,p)}const D=s(o,[["render",t],["__file","import-python-file-from-path.html.vue"]]);export{D as default};
