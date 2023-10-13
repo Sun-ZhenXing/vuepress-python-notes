@@ -19,11 +19,11 @@ pip freeze > requirements.txt
 更新 pip：
 
 ```bash
-python -m pip install -i https://mirrors.bfsu.edu.cn/pypi/web/simple/ --upgrade pip
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --upgrade pip
 ```
 
 设置镜像地址：
 
 ```bash
-pip config set global.index-url https://mirrors.bfsu.edu.cn/pypi/web/simple/
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
 ```

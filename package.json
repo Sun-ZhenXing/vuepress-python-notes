@@ -1,7 +1,15 @@
 {
   "name": "vuepress-python-notes",
+  "type": "module",
   "version": "1.0.0",
   "description": "Vuepress Python Notes",
+  "author": "Alex",
+  "license": "ISC",
+  "keywords": [
+    "vuepress",
+    "python",
+    "notes"
+  ],
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -10,25 +18,21 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "update-package": "pnpm dlx vp-update"
+    "update-package": "pnpm dlx vp-update",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "keywords": [
-    "vuepress",
-    "python",
-    "notes"
-  ],
-  "author": "Alex",
-  "license": "ISC",
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.18",
+    "@antfu/eslint-config": "1.0.0-beta.26",
     "@vuepress/client": "2.0.0-beta.67",
     "@vuepress/plugin-shiki": "2.0.0-beta.67",
     "@vuepress/utils": "2.0.0-beta.67",
+    "eslint": "^8.51.0",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-auto-catalog": "2.0.0-beta.237",
-    "vuepress-plugin-copy-code2": "2.0.0-beta.237",
-    "vuepress-plugin-md-enhance": "2.0.0-beta.237",
-    "vuepress-plugin-search-pro": "2.0.0-beta.237"
+    "vuepress-plugin-auto-catalog": "2.0.0-beta.238",
+    "vuepress-plugin-copy-code2": "2.0.0-beta.238",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.238",
+    "vuepress-plugin-search-pro": "2.0.0-beta.238"
   }
 }

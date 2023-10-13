@@ -63,7 +63,7 @@ pip config set global.index-url %mirror_url%
 中国大陆常见镜像网站：
 
 ```bash
-pip3 config set global.extra-index-url "https://pypi.tuna.tsinghua.edu.cn/simple/ https://mirrors.aliyun.com/pypi/simple/ https://repo.huaweicloud.com/repository/pypi/simple/ https://mirrors.bfsu.edu.cn/pypi/web/simple/"
+pip3 config set global.extra-index-url "https://pypi.tuna.tsinghua.edu.cn/simple/ https://mirrors.aliyun.com/pypi/simple/"
 ```
 
 请先依据上面的命令升级 pip，然后将各个 URL 用空格分开：
