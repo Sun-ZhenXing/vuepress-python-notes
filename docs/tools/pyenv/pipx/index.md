@@ -1,0 +1,3 @@
+# pipx
+
+<AutoCatalog />

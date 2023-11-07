@@ -15,6 +15,22 @@
 - [ ] Celery：Python 异步任务调度
 - [ ] Rocketry：Python 下的轻量调度框架
 
+## Python 环境管理
+
+- [x] `pipx`：管理全局命令行工具
+- [ ] `pipenv`：虚拟环境
+- [ ] `conda`：Anaconda 工具
+- [ ] `virtualenv`：虚拟环境工具包
+- [ ] `virtualenvwrapper`
+- [ ] `pew`
+- [ ] `tox`
+- [ ] `nox`
+
+## Cython
+
+- [ ] <https://www.zhihu.com/column/c_1284193666899787776>
+- [ ] <https://www.zhihu.com/column/c_1277937360727257088>
+
 ## OpenCV 增加图像对比度
 
 当使用Python和OpenCV增加图像的对比度时，可以使用`cv2.convertScaleAbs()`函数。该函数可以根据给定的对比度参数对图像进行线性变换。下面是一个详细的代码示例：
