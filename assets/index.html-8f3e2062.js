@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3855fef6","path":"/tools/pyenv/pipx/","title":"pipx","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699357996000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"tools/pyenv/pipx/index.md","excerpt":""}');export{e as data};

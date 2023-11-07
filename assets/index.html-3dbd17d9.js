@@ -1,0 +1,1 @@
+import{_ as o,r as a,o as n,c,a as r,b as e,d as s}from"./app-69c72c30.js";const d={},_=e("h1",{id:"cython",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#cython","aria-hidden":"true"},"#"),s(" Cython")],-1);function l(h,i){const t=a("AutoCatalog");return n(),c("div",null,[_,r(t)])}const m=o(d,[["render",l],["__file","index.html.vue"]]);export{m as default};
