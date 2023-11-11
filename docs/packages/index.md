@@ -1,4 +1,4 @@
-# Python 常用第三方库
+# Python 第三方库
 
 <AutoCatalog />
 

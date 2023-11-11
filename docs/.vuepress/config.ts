@@ -73,7 +73,6 @@ export default defineUserConfig({
       container: true,
       vPre: true,
       tabs: true,
-      card: true,
       codetabs: true,
       include: {
         resolvePath: (file) => {

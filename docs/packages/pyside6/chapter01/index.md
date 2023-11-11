@@ -54,7 +54,7 @@ PySide6 是在 2020 年 12 月发布的。它增加了对 Qt 6 的支持，并�
 
 :::
 
-首先需要计算机内安装有 Python，安装后推荐使用 `venv` 等工具来 [创建虚拟环境](../../../python-core/stdlib/venv.md)，在新环境内开发 PySide6。
+首先需要计算机内安装有 Python，安装后推荐使用 `venv` 等工具来 [创建虚拟环境](../../../basic/stdlib/venv.md)，在新环境内开发 PySide6。
 
 安装：
 

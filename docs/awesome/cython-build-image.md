@@ -61,17 +61,17 @@ pip install -U cython
 
 - `resources/`：项目用到的资源文件
 - `demo_server/`
-    - `models/`
-        - `__init__.py`
-        - `xxx.py`
-    - `services/`
-        - `__init__.py`
-        - `xxx.py`
-    - `utils/`
-        - `__init__.py`
-        - `xxx.py`
+  - `models/`
     - `__init__.py`
-    - `core.py`
+    - `xxx.py`
+  - `services/`
+    - `__init__.py`
+    - `xxx.py`
+  - `utils/`
+    - `__init__.py`
+    - `xxx.py`
+  - `__init__.py`
+  - `core.py`
 - `server.py`：主入口文件
 - `setup.py`：包配置文件
 - `requirements.txt`：依赖文件
@@ -206,7 +206,7 @@ pip-delete-this-directory.txt
 
 ## 3. 动态导入和路由发现
 
-以下内容需要对 Python 的 `importlib` 模块有一定的了解，如果你不了解如何动态导入模块，可以参考 [此文章](../python-core/collections/import-python-file-from-path.md)。
+以下内容需要对 Python 的 `importlib` 模块有一定的了解，如果你不了解如何动态导入模块，可以参考 [此文章](../basic/collections/import-python-file-from-path.md)。
 
 我们在构建网络服务时常常使用一些元编程技巧，这常常需要借助运行时反射来实现。如 SpringBoot 中的 `@ComponentScan` 能够自动扫描并加载所有的 `@Component` 注解的类，然后将它们注册到 IoC 容器中。
 

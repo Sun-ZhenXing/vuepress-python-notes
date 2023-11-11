@@ -4,7 +4,7 @@
 
 ## 1. Python 语言定义
 
-我们在第三方库中介绍过一个 Python 语言解析器[`parso`](../../pypi-package/compiler/parso.md)，它的核心就是一个 Python 语言定义，它是一个 EBNF 语法定义，用于解析 Python 代码。[^1]
+我们在第三方库中介绍过一个 Python 语言解析器[`parso`](../../packages/compiler/parso.md)，它的核心就是一个 Python 语言定义，它是一个 EBNF 语法定义，用于解析 Python 代码。[^1]
 
 [^1]: 冷门话题，聊一聊 Python 的 EBNF，酷 Python，<http://www.coolpython.net/informal_essay/21-04/py-ebnf.html>
 
@@ -34,13 +34,13 @@ suite: simple_stmt | NEWLINE INDENT stmt+ DEDENT
 
 ## 2. EBNF 语法
 
-```card
+<!-- ```card
 title: AI 提示
 desc: 解释一下 Extended Backus Naur Form（EBNF）是什么？What is the Extended Backus Naur Form (EBNF)?
 link: https://chat.openai.com/
 logo: /vuepress-python-notes/chatgpt.svg
 color: rgba(226, 212, 255, 0.2)
-```
+``` -->
 
 **巴科斯-诺尔范式**（Extended Backus-Naur Form，EBNF）是一种用于描述计算机语言语法的元语言。它是 Backus-Naur Form（BNF）的扩展版本，提供了更多的元素和语法结构，以便更准确地描述一些复杂的语法规则。
 
