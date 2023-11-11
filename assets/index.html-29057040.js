@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1b23c42e","path":"/tools/engineering/","title":"Python 工程化","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"tools/engineering/index.md","excerpt":""}');export{e as data};

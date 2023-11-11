@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eb5d20c4","path":"/packages/pyside6/chapter06/","title":"6. PySide6 信号与槽","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"packages/pyside6/chapter06/index.md","excerpt":""}');export{e as data};

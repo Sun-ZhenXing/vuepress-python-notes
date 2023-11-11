@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eb5d217e","path":"/packages/pyside6/chapter03/","title":"3. Qt Designer 的使用","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"packages/pyside6/chapter03/index.md","excerpt":""}');export{e as data};

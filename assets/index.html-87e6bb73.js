@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-21de2c34","path":"/basic/collections/","title":"Python 技巧合集","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"basic/collections/index.md","excerpt":""}');export{e as data};

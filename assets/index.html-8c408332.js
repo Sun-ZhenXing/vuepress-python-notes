@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-78ecdb72","path":"/basic/lang/","title":"Python 语法特征","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"basic/lang/index.md","excerpt":""}');export{e as data};

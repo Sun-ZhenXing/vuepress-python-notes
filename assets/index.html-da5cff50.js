@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eb5d2102","path":"/packages/pyside6/chapter05/","title":"5. PySide6 布局","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"packages/pyside6/chapter05/index.md","excerpt":""}');export{e as data};

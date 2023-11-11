@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1da5c577","path":"/tools/code-formatting/","title":"Python 代码格式化工具","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"tools/code-formatting/index.md","excerpt":""}');export{t as data};

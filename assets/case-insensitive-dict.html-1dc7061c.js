@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e076a904","path":"/basic/collections/case-insensitive-dict.html","title":"大小写不敏感的字典","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699696811000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"basic/collections/case-insensitive-dict.md","excerpt":""}');export{e as data};
