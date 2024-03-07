@@ -4,10 +4,10 @@ import cv2
 import numpy as np
 from PySide6.QtCore import QTimer
 from PySide6.QtGui import QImage, QPixmap
-from PySide6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QApplication, QLabel, QMainWindow
 
 
-class MainWindow(QWidget):
+class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
 
@@ -22,18 +22,20 @@ class MainWindow(QWidget):
         # 初始化 UI
         self._image_label = QLabel()
         self._image_label.setStyleSheet("background-color: #000")
-        self._layout = QVBoxLayout()
-        self._layout.addWidget(self._image_label)
-        self.setLayout(self._layout)
+        self.setCentralWidget(self._image_label)
+
+    def __del__(self):
+        """释放资源"""
+        self._video.release()
 
     def dispaly_frame(self, frame: np.ndarray):
         """渲染帧"""
         image = QImage(
-            frame,
+            frame.data,
             frame.shape[1],
             frame.shape[0],
             frame.strides[0],
-            QImage.Format_BGR888,
+            QImage.Format.Format_BGR888,
         )
         self._image_label.setPixmap(QPixmap.fromImage(image))
 

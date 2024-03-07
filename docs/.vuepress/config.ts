@@ -70,7 +70,7 @@ export default defineUserConfig({
   plugins: [
     mdEnhancePlugin({
       gfm: true,
-      container: true,
+      hint: true,
       vPre: true,
       tabs: true,
       codetabs: true,
@@ -136,19 +136,7 @@ export default defineUserConfig({
       ],
     }, false),
     searchProPlugin({}),
-    autoCatalogPlugin({
-      orderGetter: ({ title, routeMeta }) => {
-        if (routeMeta.order)
-          return routeMeta.order as number
-        const prefix = title.match(/^\d+. /)
-        if (prefix)
-          return Number.parseInt(prefix[0])
-        const suffix = title.match(/\d+$/)
-        if (suffix)
-          return Number.parseInt(suffix[0])
-        return 0
-      },
-    }),
+    autoCatalogPlugin({}),
     copyCodePlugin({
       showInMobile: true,
     }),
