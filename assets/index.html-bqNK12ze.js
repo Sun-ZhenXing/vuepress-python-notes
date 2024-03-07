@@ -1,1 +1,0 @@
-import{_ as o,r as a,o as n,c,a as r,b as e,d as s}from"./app-VcvQJWSe.js";const d={},_=e("h1",{id:"python-多进程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python-多进程","aria-hidden":"true"},"#"),s(" Python 多进程")],-1);function l(h,i){const t=a("AutoCatalog");return n(),c("div",null,[_,r(t)])}const m=o(d,[["render",l],["__file","index.html.vue"]]);export{m as default};

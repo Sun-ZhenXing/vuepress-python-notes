@@ -1,1 +1,0 @@
-import{_ as o,r as a,o as r,c as n,a as c,b as e,d as s}from"./app-VcvQJWSe.js";const d={},_=e("h1",{id:"poetry",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#poetry","aria-hidden":"true"},"#"),s(" Poetry")],-1);function l(i,h){const t=a("AutoCatalog");return r(),n("div",null,[_,c(t)])}const m=o(d,[["render",l],["__file","index.html.vue"]]);export{m as default};
